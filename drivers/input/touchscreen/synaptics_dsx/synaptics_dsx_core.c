@@ -132,7 +132,7 @@ bool gesture_delay = false;
 int synaptics_gesture_switch(struct input_dev *dev, unsigned int type, unsigned int code, int value)
 {
 
-	unsigned int input ;
+	unsigned int input = 0;
 	if (type == EV_SYN && code == SYN_CONFIG)
 	{
 		if (rmi4_data->suspend)
@@ -146,7 +146,7 @@ int synaptics_gesture_switch(struct input_dev *dev, unsigned int type, unsigned 
 			synaptics_gesture_func_on = false;
 			printk("close double-click resume\n");
 			input = 0;
-		}else if (value == WAKEUP_ON) {
+		} else if (value == WAKEUP_ON) {
 			synaptics_gesture_func_on  = true;
 			printk("open double-click resume\n");
 			input = 1;
