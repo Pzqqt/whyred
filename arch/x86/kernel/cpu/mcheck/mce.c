@@ -2,6 +2,7 @@
  * Machine check handler.
  *
  * K8 parts Copyright 2002,2003 Andi Kleen, SuSE Labs.
+ * Copyright (C) 2018 XiaoMi, Inc.
  * Rest from unknown author(s).
  * 2004 Andi Kleen. Rewrote most of it.
  * Copyright 2008 Intel Corporation
