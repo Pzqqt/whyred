@@ -13,6 +13,6 @@ export CROSS_COMPILE_ARM32=/home/pzqqt/bin/gcc-arm-8.3-2019.03-x86_64-arm-linux-
 export KBUILD_BUILD_HOST="lenovo"
 export KBUILD_BUILD_USER="pzqqt"
 
-export LOCALVERSION=-v5.1-rebase-uv
+export LOCALVERSION=-v5.2-rebase-uv
 make O=out mrproper && make O=out whyred_defconfig && make O=out -j6
 
