@@ -22,7 +22,7 @@
 #define SCALE_VAL_MIN   20
 
 // MAX_BRIGHTNESS : Maximum value of the display brightness/backlight
-#define MAX_BRIGHTNESS  1023
+#define MAX_BRIGHTNESS  255
 
 // MIN_BRIGHTNESS : Minimum value of the display brightness/backlight
 #define MIN_BRIGHTNESS  2
